@@ -11,10 +11,10 @@ form.input.clone();　と　form.0.input;　の書き方の違い。
 * .0.という書き方の名前
     "tuple indexing"といいます。
 
-    * 動作
+    * サンプルコード
         fn main() {
             let a = (9, 8, 7, 6);
-            println!("{}", a.1)
+            println!("{}", a.1) // タプルaのinedx番号1番目を指定
         }
 
         ↓
